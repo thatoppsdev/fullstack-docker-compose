@@ -16,11 +16,11 @@ The entire stack runs seamlessly with **Docker Compose**, allowing easy setup an
 
 ## 🚀 Features
 
-- **Frontend (React)**: User-facing interface.  
-- **Backend (Node.js/Express)**: REST API that connects frontend to the database.  
-- **Database (Postgres)**: Persistent data storage with initialization via `init.sql`.  
-- **Dockerized Services**: Each service runs in its own isolated container.  
-- **One Command Setup**: Launches the entire stack with `docker-compose up`.  
+- **Frontend (React)**: User-facing interface  
+- **Backend (Node.js/Express)**: REST API that connects frontend to the database  
+- **Database (Postgres)**: Persistent data storage with initialization via `init.sql`  
+- **Dockerized Services**: Each service runs in its own isolated container  
+- **One Command Setup**: Launches the entire stack with `docker-compose up`  
 
 ---
 
@@ -35,8 +35,7 @@ The entire stack runs seamlessly with **Docker Compose**, allowing easy setup an
 
 ## 📁 Project Structure
 
-```
-
+```bash
 fullstack-docker-app/
 ├── images/                # Readme assets
 ├── backend/               # Node backend service
@@ -51,29 +50,32 @@ fullstack-docker-app/
 ├── init.sql               # Database initialization script
 ├── docker-compose.yml     # Orchestrates full stack
 └── README.md
-
 ````
 
 ---
 
 ## 🔧 Setup Instructions
 
-1. Clone the repository:
-   ```
+1. **Clone the repository**
+
+   ```bash
    git clone https://github.com/your-username/fullstack-docker-app.git
    cd fullstack-docker-app
-  ```
-
-2. Build and run the services:
    ```
+
+2. **Build and run the services**
+
+   ```bash
    docker-compose up --build
    ```
 
-3. Access the services:
+3. **Access the services**
 
    * Frontend → [http://localhost:3000](http://localhost:3000)
    * Backend API → [http://localhost:5000](http://localhost:5000)
    * PostgreSQL → available on port **5432**
+
+---
 
 ## 📸 Visuals
 
@@ -84,7 +86,7 @@ fullstack-docker-app/
   ![Backend](images/backend.png)
 
 * **Database Connection (Postgres CLI with Sample Data)**
-  ![Backend](images/db.png)
+  ![Database](images/db.png)
 
 * **Docker Compose CLI**
   ![Docker Compose](images/dockercli.png)
@@ -93,16 +95,13 @@ fullstack-docker-app/
 
 ## 📈 How It Works
 
-* **Step 1**: React frontend makes requests to the Node backend.
-* **Step 2**: Backend communicates with PostgreSQL.
-* **Step 3**: PostgreSQL is initialized via `init.sql` at container startup.
-* **Step 4**: All services are orchestrated with Docker Compose.
+1. React frontend makes requests to the Node backend
+2. Backend communicates with PostgreSQL
+3. PostgreSQL is initialized via `init.sql` at container startup
+4. All services are orchestrated with Docker Compose
 
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome! Fork the repo, create a feature branch, and submit a pull request.
-
-
-
