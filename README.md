@@ -59,14 +59,13 @@ fullstack-docker-app/
 ## 🔧 Setup Instructions
 
 1. Clone the repository:
-   ```bash
+   ```
    git clone https://github.com/your-username/fullstack-docker-app.git
    cd fullstack-docker-app
-````
+  ```
 
 2. Build and run the services:
-
-   ```bash
+   ```
    docker-compose up --build
    ```
 
@@ -75,8 +74,6 @@ fullstack-docker-app/
    * Frontend → [http://localhost:3000](http://localhost:3000)
    * Backend API → [http://localhost:5000](http://localhost:5000)
    * PostgreSQL → available on port **5432**
-
----
 
 ## 📸 Visuals
 
