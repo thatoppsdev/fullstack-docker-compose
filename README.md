@@ -59,7 +59,7 @@ fullstack-docker-app/
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/fullstack-docker-app.git
+   git clone https://github.com/thatoppsdev/fullstack-docker-app.git
    cd fullstack-docker-app
    ```
 
